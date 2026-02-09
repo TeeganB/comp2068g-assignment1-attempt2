@@ -42,7 +42,7 @@ const options = {
       version: "1.0.0",
     },
   },
-  apis: ["./dist/controllers/*.js"],
+  apis: ["./dist/controllers/*.ts"],
 };
 
 const openApiSpecs = swaggerJSDoc(options);
