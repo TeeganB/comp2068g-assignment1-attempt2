@@ -1,0 +1,47 @@
+# Products API
+
+This project is a REST API built with Node.js, Express, TypeScript, MongoDB (Mongoose), and Swagger.
+It implements full CRUD functionality for managing products and is deployed to Vercel.
+
+---
+
+## 🚀 Live Deployment
+
+**Base URL:**  
+https://YOUR-VERCEL-URL.vercel.app
+
+**Swagger API Documentation:**  
+https://YOUR-VERCEL-URL.vercel.app/api-docs
+
+---
+
+## 📦 Features
+
+- Create, read, update, and delete products
+- MongoDB Atlas cloud database
+- Input validation and error handling
+- Rate limiting to protect API endpoints
+- Interactive API documentation using Swagger
+
+---
+
+## 🧱 Tech Stack
+
+- Node.js
+- Express
+- TypeScript
+- MongoDB Atlas + Mongoose
+- Swagger (swagger-jsdoc & swagger-ui-express)
+- Vercel (deployment)
+
+---
+
+## 📌 API Endpoints
+
+| Method | Endpoint | Description |
+|------|--------|------------|
+| POST | `/api/v1/products` | Create a new product |
+| GET | `/api/v1/products` | Retrieve all products |
+| GET | `/api/v1/products/:id` | Retrieve a product by ID |
+| PUT | `/api/v1/products/:id` | Update a product by ID |
+| DELETE | `/api/v1/products/:id` | Delete a product by ID |
