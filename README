@@ -5,16 +5,6 @@ It implements full CRUD functionality for managing products and is deployed to V
 
 ---
 
-## 🚀 Live Deployment
-
-**Base URL:**  
-https://YOUR-VERCEL-URL.vercel.app
-
-**Swagger API Documentation:**  
-https://YOUR-VERCEL-URL.vercel.app/api-docs
-
----
-
 ## 📦 Features
 
 - Create, read, update, and delete products
